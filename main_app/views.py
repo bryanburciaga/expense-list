@@ -1,3 +1,4 @@
+from django.views.generic.edit import CreateView, UpdateView, DeleteView
 from django.shortcuts import render
 from .models import Expense
 
@@ -12,3 +13,14 @@ def expense_detail(request, expense_id):
         'expense': expense,
     })
 
+class ExpenseCreate(CreateView):
+    model = Expense
+    fields = '__all__'
+    
+class ExpenseUpdate(UpdateView):
+    model = Expense
+    fields = '__all__'
+
+class ExpenseDelete(DeleteView):
+    model =  Expense
+    success_url = '/'
