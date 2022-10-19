@@ -9,6 +9,10 @@ class Expense(models.Model):
     cost = models.IntegerField()
     user = models.ForeignKey(User, on_delete=models.CASCADE)
 
+class Totals(models.Model):
+    total = models.CharField(max_length=100)
+    
+
     def __str__(self):
         return self.name
     
