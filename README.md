@@ -13,7 +13,7 @@ Tecnologies used
 ![Login](https://i.imgur.com/zXYRLto.png)
 ![Index](https://i.imgur.com/kM3O6WK.png)
 ![Create](https://i.imgur.com/E5TkJWZ.png)
-![Update/Delete]([img]https://i.imgur.com/uLcW3un.png[/img])
+![Update/Delete](https://i.imgur.com/uLcW3un.png)
 
 
 
