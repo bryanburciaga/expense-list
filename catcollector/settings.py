@@ -28,6 +28,8 @@ DEBUG = env('DEBUG') == 'True'
 
 ALLOWED_HOSTS = []
 
+DEBUG_PROPAGATE_EXCEPTIONS = True
+
 # Application definition
 
 INSTALLED_APPS = [
@@ -136,5 +138,3 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 import django_heroku 
 django_heroku.settings(locals())
 
-
-DEBUG_PROPAGATE_EXCEPTIONS = True
